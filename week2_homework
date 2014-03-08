@@ -1,1 +1,177 @@
   
+Chapter 4. QA in Context
+
+
+Defect Measurement and Analysis
+
+QA in Software Processes:
+	Mega-process:initiation, development, maintenance, termination;
+	Development process components:requirement, specification, design, coding, testing, release.
+	Process variations;
+	
+	QA important in all processes.
+
+
+QA in Waterfall Process:
+	defect prevention in early phases
+	focused defect removal in testing phase
+	defect containment in late phases
+	phase transitions: inspection/review/etc.
+
+QA in Software Processes:
+	Process variations (not waterfall) and QA;
+	QA in maintenance processes;
+	QA scattered throughout all processes.
+
+verification/validation (V&V) view
+
+V&V in Software Process:
+	customer requirements-->product specifications-->high-level design-->low-level design-->coding & unit test: implementation (& V&V);
+	coding & unit test-->component test-->integration test-->system test-->operational use: testing (& V&V);
+	user@top vs. developer@bottom;
+
+V&V vs DC View:
+	Two views of QA;
+	Mapping between V&V and DC view;
+
+
+
+
+
+
+
+Chapter 5. Quality Engineering
+
+
+QA to SQE:
+	QA activities need additional support;
+	Assessment of quality/reliability/etc;
+	QA + above=>software quality engineering (SQE);
+
+SQE Process
+
+SQE and QIP(quality improvement paradigm)
+
+Pre-QA Planning:
+	Pre-QA planning: Quality goal, Overall QA strategy;
+	Setting quality goal(s).
+
+Setting Quality Goals:
+	Identify quality views/attributes;
+	Select direct quality measurements;
+	Assess quality expectations vs. cost.
+
+Forming QA Strategy
+	QA activity planning;
+	Measurement/feedback planning;
+
+Analysis and Feedback
+	Measurement;
+	Analyses: quality/other models;
+	Feedback and followup.
+
+SQE in Software Processes:
+	SQE activities (cid:26) development activities;
+	Fitting SQE in software processes.
+
+SQE in Waterfall Process
+
+SQE Effort Profile:
+	QE activity/effort distribution/dynamics;
+	planning: front heavy;
+	QA: activity mix(early vs. late; peak variability? deadline?);
+	analysis/feedback: tail heavy(often deadline-driven or decision-driven).
+
+SQE Effort in Waterfall Process
+
+
+
+
+
+
+
+Chapter 6. Testing Overview
+
+
+Testing and QA Alternatives:
+	Defect prevention.
+
+Error blocking and error source removal:
+	Defect removal;
+	Defect containment: Fault tolerance and failure containment (safety assurance).
+
+QA and Testing:
+	Testing as part of QA;
+	Testing: Key questions.
+
+Testing: Why?:
+	Original purpose: demonstration of proper behavior or quality demonstration.~ "testing" in traditional settings;
+	New purpose: defect detection & removal.
+
+Testing: How:
+	How? Run-observe-followup(particularly in case of failure observations);
+	Refinement.
+
+Testing: Activities & Generic Process:
+	Major testing activities;
+	Link above activities ) generic process;
+
+Testing: Planning and Preparation:
+	Test planning;
+	Test preparation.
+
+Testing: Execution:
+	General steps in test execution;
+	Key to execution: handling both normal vs. abnormal cases;
+	Activities closely related to execution.
+
+Testing: Analysis and Followup:
+	Analysis of testing results;
+	Followup activities
+	
+Testing: How?:
+	How to test? -refine into three sets of questions: basic questions, testing technique questions, activity/management questions.
+
+Testing Technique Questions:
+	Testing technique questions;
+	Testing model questions.
+
+Test Activity/Management Questions:
+	Addressed already: Generic process and relation to QA and software processes;
+	Other activity/management questions.
+
+Functional vs. Structural Testing:
+	Key distinction: Perspective on what need to be checked/tested;
+	Functional testing;
+	Structural testing.
+	
+Black-Box vs. White-Box View:
+	Object abstraction/representation;
+	Gray-box (mixed black-box/white-box) testing.
+
+White-box Testing:
+	Program component/structure knowledge;
+	Applicability;
+	Criterion for stopping.
+
+Black-box Testing:
+	Input/output behavior;
+	Applicability;
+	Criteria: when to stop.
+
+When to Stop Testing:
+	Resource-based criteria;
+	Quality-based criteria.
+	
+Usage-Based Testing and OP:
+	Usage-based statistical testing;
+	Applicability;
+	Termination criteria: reliability goals.
+
+Coverage-Based Testing:
+	Coverage-based testing;
+	Applicability;
+	Termination criteria: coverage goals.
+
+Steps in Systematic Testing
+	
