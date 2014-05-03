@@ -18,7 +18,7 @@ System testing executes end-to-end functional tests that cross software units, h
 Regression testing ensures code modifications have not inadvertently introduced bugs into the system or changed existing functionality. Goals for regression testing should include plans from the original unit, as well as functional and system tests phases to demonstrate that existing functionality behaves as intended.
 
 #####System Integration Testing
-System integration testing is a process that assesses the software's interoperability and cooperation with other applications. Define testing goals that will exercise required communication. (It is fruitless to test interaction between systems that will not collaborate once the developed system is installed.) This is done using process flows that encapsulate the entire system.
+System integration testing is a process that assesses the software's interoperability and cooperation with other applications. Define testing goals that will exercise required communication. This is done using process flows that encapsulate the entire system.
 
 #####Acceptance Testing
 Acceptance testing aims to test how well users interact with the system, that it does what they expect and is easy to use. Although it is the final phase of testing before software deployment, the tests themselves should be defined as early as possible in the SDLC. Early definition ensures customer expectations are set appropriately and confirms for designers that what they are building will satisfy the end user's requirements. To that end, acceptance test cases are developed from user requirements and are validated in conjunction with actual end users of the system. The process results in acceptance or rejection of the final product.
